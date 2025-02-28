@@ -46,7 +46,7 @@ mkdir -p ~/.local/bin || error_exit "Could not create directory ~/.local/bin"
 # Download fnotes
 echo "Downloading fnotes..."
 # fnotes url
-FNOTES_URL="https://raw.githubusercontent.com/inigochoa/fnotes/main/fnotes"
+FNOTES_URL="https://raw.githubusercontent.com/inigochoa/fnotes/main/src/fnotes.sh"
 
 # Download the script from the repository
 if ! curl -sSL "$FNOTES_URL" -o ~/.local/bin/fnotes; then
