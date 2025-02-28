@@ -1,0 +1,41 @@
+# User config files
+config-user.sh
+
+# Backup files created by editors
+*~
+*.bak
+*.swp
+*.swo
+.DS_Store
+
+# Editor directories
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+logs/
+
+# User notes directory (example data)
+notes-example/
+
+# Local environment files
+.env
+.env.local
+
+# Test files
+*.test
+
+# Temp files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Scripts ending with -local.sh are for local development/testing
+*-local.sh
+
+# Default notes directory that might be created during development/testing
+fnotes/
