@@ -23,7 +23,7 @@ A simple command-line markdown note manager for Linux systems.
 Install fnotes with a single command:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/inigochoa/fnotes/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/inigochoa/fnotes/main/scripts/install.sh | bash
 ```
 
 This installer will:
